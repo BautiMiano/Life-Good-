@@ -16,7 +16,7 @@ li{
 
 body {
     font-family: "inter";
-    font-size: 23px;
+    font-size: 150%;
     background-color: #ffffff;
 }
 
@@ -72,14 +72,10 @@ footer {
     color: #ffffff;
 
 }
-.footer-contacto{
-    background-color: #83B248;
-    bottom: 0px;
-    width: 100%;
-    position: fixed;
-    text-align: center;
-    padding: 1.4%;
-    color: #ffffff;
+
+.imagen_footer{
+    width: 4%;
+    border-radius: 25px;
 }
 
 footer div {
@@ -150,19 +146,12 @@ footer div {
 
 /*Inicio pagina Contacto*/
 
-.main-formulario_img{
-    background-image: url('../imagenes/Imagen\ de\ WhatsApp\ 2023-10');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-}
 .formulario{
-    width: 50%;
-    margin: auto;
-    box-sizing: border-box;
-    padding: 2%;
-    margin-top: 4%;
+    width: 50%; 
+    margin: auto; 
+    box-sizing: border-box; 
+    padding: 8%; 
+    margin-top: 0%;
 }
 .formulario__titulo{
     text-align: center;
@@ -213,6 +202,14 @@ footer div {
         width: 100%;
         position: fixed;
         text-align: center;
+    }
+    .div_footer_concto{
+        background-color: #83B248;
+        bottom: 0px;
+        width: 100%;
+        position: fixed;
+        text-align: center;
+        color: #ffffff;
     }
 
     .main_header_nav ul {
@@ -271,7 +268,7 @@ footer div {
 /*Inicio pagina contactenos*/
 .formulario{
     width: 80%;
-    padding: 0%;
+    padding: 3%;
     margin-top: 2%;
 }
 .formulario__titulo{
